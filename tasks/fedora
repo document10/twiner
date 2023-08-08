@@ -53,7 +53,7 @@ tw_task_fedora_setup_gui () {
 
 # Function to install a display server in Fedora
 tw_task_fedora_install_display_server () {
-    tw_execute sudo dnf install xorg-x11-server-Xorg xorg-x11-apps xorg-x11-xinit -y
+    tw_execute sudo dnf install xorg-x11-server-Xorg  xorg-x11-xinit xterm -y
 }
 
 # Function to install graphic drivers in Fedora
